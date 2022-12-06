@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--css bağlantısını buradan yaptım-->
+
+    <link rel="stylesheet" href="./ailedanismanligicss.css">
+    <title>Document</title>
+</head>
+<body>
+    <nav class="yaziyi_ortala">
+        <a class="navbar"href="anasayfa.html">Ana Sayfa</a>
+        <a class="navbar"href="blog.html">Blog</a>
+        <a class="navbar"href="Hakkımda.html">Hakkımda</a>
+        <a class="navbar"href="Sık Sorulan Sorular.html">Sık Sorulan Sorular</a>
+        <a class="navbar"href="İletişim.html">İletişim</a>
+    </nav><br><br><hr>
+    <img weight="200" height="200" src="./Ekran görüntüsü 2022-12-02 131920.png" alt=""> <br>
+   <section class="yaziyi_ortala">
+    <h2>Bana Ulaşınız</h2>
+    <p>İletişime Geçmek İçin Aşağıdaki Formu Doldurunuz</p><br>
+</section>
+    <form class="yaziyi_ortala" action="./iletişim.html">
+        <label for="name">Adınız:</label>
+        <input type="text"id="name"><br><br>
+
+        <label for="soyisim">Soyisim:</label>
+        <input type="text"id="soyisim"><br><br>
+
+        <label for="yaş">Yaşınız:</label>
+        <input type="text"id="yaş"><br><br>
+
+       <label for="cinsiyet">Cinsiyetiniz:</label>
+       <input type="radio" name="cinsiyet" value="kadın">Kadın
+       <input type="radio" name="cinsiyet" value="erkek">Erkek
+       <input type="radio" name="cinsiyet" value="kadın">Diğer <br><br>
+
+       <label for="date">Randevu Tarihi Seçiniz</label><br>
+       <input type="date" name="date" id="date"><br><br>
+
+        <label for="eğitim durumu">Eğitim Durumu:</label><br>
+        
+       <select name="eğitim durumu" id="eğitim durumu">
+       <option value="ön lisans">ön lisans</option>
+       <option value="lisans">lisans</option>
+       <option value="yüksek lisans">yüksek lisans</option>
+       <option value="Diğer">Diğer</option>
+        </select><br><br>
+        <textarea name="message" id="message" cols="30" rows="10" placeholder="Mesajınızı Yazınız :)"></textarea><br><br>
+        
+        <input type="submit" value="Gönder">
+        <input type="reset" name="Sıfırla"><br>
+    </form>
+    <hr>
+    <footer>
+        <nav>
+            <a class="navbar"href="anasayfa.html">Ana Sayfa</a><br>
+            <a class="navbar"href="blog.html">Blog</a><br>
+            <a class="navbar"href="Hakkımda.html">Hakkımda</a><br>
+            <a class="navbar"href="Sık Sorulan Sorular.html">Sık Sorulan Sorular</a><br>
+            <a class="navbar"href="İletişim.html">İletişim</a><br>
+        </Nav>
+        <h2 class="sayfabaslik">İletişim</h2>
+        Tel: <a href="tel:05352114450">05352114450</a><br>
+        Email: <a href="mail to:kervanbusraa@gmail.com">kervanbusraa@gmail.com</a><br><hr>
+        <p><small>Tüm hakları saklıdır//2022| Designed by Büşra KERVAN</small></p>
+    </footer>
+</body>
+</html>
